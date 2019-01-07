@@ -3,8 +3,11 @@ For materials for the AIMS-Ghana class in January 2019
 
 Test Claire.
 Suggestion of directories:
+- assignments 
 - course_material
-- assignments
-- tutorials
+- grading
 - misc
+- tools
+- tutorials
+ 
 
