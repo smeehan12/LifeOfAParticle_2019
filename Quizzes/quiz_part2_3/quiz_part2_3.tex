@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+%	options include 12pt or 11pt or 10pt
+%	classes include article, report, book, letter, thesis
+
+% \usepackage[margin=0.75in]{geometry}
+\usepackage[margin=1in]{geometry}
+\setlength{\parindent}{0pt}
+
+\usepackage{hyperref}
+
+%for writing of code in blocks like
+%\begin{lstlisting}
+%   .......
+%\end{lstlisting}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{graphicx}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Life of a Particle : Quiz on Semi-conductor Physics}
+\author{Claire David}
+\date{Due Date : DD/MM/2019}
+
+\begin{document}
+\maketitle
+
+\section{Conductivity of intrinsic silicon}
+Calculate the voltage that should be applied on a rectangular plate of intrinsic (undoped) silicon at 300 K in order to have a current of 100 nA.\\
+The cross section of the plate is 10 $\mu m$ $\times$ 50 $\mu m$ and its length is 1 mm.
+
+\section{Energy bands and acceptors}
+A) Sketch the band structure of an intrinsic, a $p$-doped and $n$-doped semi-conductor. Indicate for each the Fermi level.\\
+
+B) Why is this doping $n$ and $p$ called donor and acceptors respectively?\\
+
+C) A $p$-doped silicon plate is put next to an $n$-doped one. Sketch the density of charges, the electric field, the electrostatic potential and the band structure with the Fermi level as a function of the x coordinate:
+\begin{enumerate}
+ \item when the two stabs are apart from each other
+ \item when the stabs touch
+\end{enumerate}
+
+\section{Conductivity of doped silicon}
+The silicon plate of exercice 1 is now doped with donors of different densities:
+\begin{enumerate}
+ \item $N_D = 10^9$ cm$^{-3}$
+ \item $N_D = 10^12$ cm$^{-3}$
+ \item $N_D = 10^15$ cm$^{-3}$
+\end{enumerate}
+
+Which voltages must be applied to achieve the same current?
+
+
+
+
+
+
+    
+\end{document}

@@ -1,0 +1,84 @@
+\documentclass[12pt]{article}
+%	options include 12pt or 11pt or 10pt
+%	classes include article, report, book, letter, thesis
+
+% \usepackage[margin=0.75in]{geometry}
+\usepackage[margin=1in]{geometry}
+\setlength{\parindent}{0pt}
+
+\usepackage{hyperref}
+
+%for writing of code in blocks like
+%\begin{lstlisting}
+%   .......
+%\end{lstlisting}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{url}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Life of a Particle : Assignment 1}
+\author{Claire David}
+\date{Due Date : DD/MM/2019}
+
+\begin{document}
+\maketitle
+
+\textbf{How to submit}
+\newline
+This assignment should be submitted by replying to the email sent out requesting its submission.\\
+You should include a single PDF file that has any verbal description of the answers to the questions, along with description of what computer code files go with which question.\\
+Please bundle this all into a single tarball and submit this one tarball file.\\
+Naming convention: {\tt{lifefofparticle\_part2\_assignment1\_YOURNAME.tar}}
+
+\section*{Interpreting test beam data}
+
+The following plot comes from real data taken at the DESY II testbeam facility in Hamburg, Germany.\\
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{electron_scattering_DESY_2006.jpg}
+%     \caption{}
+%     \label{fig:mesh1}
+\end{figure}
+A test beam telescope consists of aligned sensitive plates perpendicular to the beam direction $\vec{e}_Z$, which record the position 
+A beam of electron of energy 1 GeV goes through six sensitive plates perpendicular to the beam direction. A test beam telescope etween the third and fourth plate) 
+
+If you are curious, you can read more about the testbeam facilities and the telescopes here:
+\hspace{10ex} \url{http://particle-physics.desy.de}\\[1ex]
+\hspace{10ex} \url{here: https://telescopes.desy.de}\\[1ex]
+
+In class, we made a program to simulate a toy detector and overlay tracks.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.85\textwidth]{toy_det_deflection.png}
+%     \caption{}
+%     \label{fig:mesh1}
+\end{figure}
+
+We saw that the deflection of the passing particles on the last detector layer (11$^{11}$) can be approximated with a Gaussian distribution.
+
+\end{document}

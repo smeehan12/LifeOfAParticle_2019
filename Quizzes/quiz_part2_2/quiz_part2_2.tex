@@ -1,0 +1,89 @@
+\documentclass[12pt]{article}
+%	options include 12pt or 11pt or 10pt
+%	classes include article, report, book, letter, thesis
+
+% \usepackage[margin=0.75in]{geometry}
+\usepackage[margin=1in]{geometry}
+\setlength{\parindent}{0pt}
+
+\usepackage{hyperref}
+
+%for writing of code in blocks like
+%\begin{lstlisting}
+%   .......
+%\end{lstlisting}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{graphicx}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Life of a Particle : Passage of Particles Through Matter}
+\author{Claire David}
+\date{Due Date : DD/MM/2019}
+
+\begin{document}
+\maketitle
+
+
+\section{Why do we see muons on Earth?}
+
+Cosmic rays colliding with air in the upper atmosphere (10,000 km) produce muons. The lifetime of the muon is $\tau_\mu = 2.2 \times 10^{-6}$ s.\\
+A rough estimation on their average distance would be in the order of 600 m.\\
+
+\textbf{Question A:} Accounting for relativistic effects, what is the average distance a muon of kinetic energy $E_\mu = 2$ GeV will cover?\\
+
+\textbf{Question B:} What would be this distance for pions?\\
+
+
+\vspace{4ex}
+\hrule
+\vspace{4ex}
+\textit{Data:}\\
+
+
+The total kinetic energy of a particle of rest mass $m_0$ and velocity $v$ is given by:
+\begin{equation}
+ E = mc^2 = \sqrt{pc^2 + m_0^2 \: c^4}
+\end{equation}
+with $p$ the momentum of the particle, $p= m_0 v \gamma$\\
+
+The relativistic factor $\gamma$ is defined by:
+\begin{equation}
+ \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+\end{equation}
+where $c$ is the speed of light.\\
+
+The muon has a rest mass of $m_\mu$ = 105 MeV.
+
+\vspace{4ex}
+\hrule
+\vspace{4ex}
+
+
+\section{Stopping power}
+
+Calculate the stopping power of 5 MeV $\alpha$-particles in air.
+
+\end{document}

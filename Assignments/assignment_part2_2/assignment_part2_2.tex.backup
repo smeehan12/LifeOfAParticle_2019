@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+%	options include 12pt or 11pt or 10pt
+%	classes include article, report, book, letter, thesis
+
+% \usepackage[margin=0.75in]{geometry}
+\usepackage[margin=1in]{geometry}
+\setlength{\parindent}{0pt}
+
+\usepackage{hyperref}
+
+%for writing of code in blocks like
+%\begin{lstlisting}
+%   .......
+%\end{lstlisting}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{url}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Life of a Particle : Assignment 2}
+\author{Claire David}
+\date{Due Date : DD/MM/2019}
+
+\begin{document}
+\vspace{-2ex}
+\maketitle
+
+\textbf{How to submit}
+\newline
+This assignment should be submitted by replying to the email sent out requesting its submission.\\
+You should include a single PDF file that has any verbal description of the answers to the questions, along with description of what computer code files go with which question.\\
+Please bundle this all into a single tarball and submit this one tarball file.\\
+Naming convention: {\tt{lifefofparticle\_part2\_assignment1\_YOURNAME.tar}}
+
+\section*{Particle separation through measurement of energy loss}
+
+Have this on my German lectures, will translate and write it here.
+
+\section*{Particle identification }
+
+
+
+
+\end{document}
