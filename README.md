@@ -13,10 +13,12 @@ Resources contain additional material, one sub-folder per topic.
 
 
 ## Calendar
-
- * Part I (Sam)
-    * test
-
+|      Assignment     |                  Content                  |  Tutor  | Due date |
+|:-------------------:|:-----------------------------------------:|:-------:|:--------:|
+|          __         |                                           |   Sam   |     ?    |
+|          __         |                                           |   Sam   |     ?    |
+| Part 2 Assignment 1 |     Electron scattering from testbeam     |  Claire |     ?    |
+| Part 2 Assignment 2 | Particle separation Curved track fitting  |  Claire |     ?    |
 
 
 ## To do list
