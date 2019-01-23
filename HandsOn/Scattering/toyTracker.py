@@ -22,6 +22,7 @@ def buildDetector(n_layers, minx, maxx):
     axarr[0].axis([minx, maxx, 0, n_layers])
     axarr[0].invert_yaxis()
     axarr[1].set_ylabel('Number of tracks')
+    axarr[1].set_xlabel('Deflection on the last layer')
     
     # Drawing the horizontal pixel layers from top (layer 0) to bottom:
     for iline in range(n_layers):
