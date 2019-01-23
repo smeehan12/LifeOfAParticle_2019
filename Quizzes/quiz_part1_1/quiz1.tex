@@ -1,0 +1,135 @@
+
+\documentclass[12pt]{article}
+%	options include 12pt or 11pt or 10pt
+%	classes include article, report, book, letter, thesis
+
+\usepackage[margin=0.5in]{geometry}
+
+\setlength{\parindent}{0pt}
+
+\usepackage{hyperref}
+
+%for writing of code in blocks like
+%\begin{lstlisting}
+%   .......
+%\end{lstlisting}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{enumitem}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C++,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Life of a Particle : Quiz 1}
+\author{Sam Meehan \& Claire David}
+\date{Due Date : 24 January 2018}
+
+\begin{document}
+\maketitle
+
+
+\textbf{Guidelines} 
+\newline
+Submit this quiz in the form of a Jupyter Notebook that is saved with the name \textbf{quiz1\_[YOURNAME].ipynb}, where \textbf{[YOURNAME]} is your first name.
+\newline
+\newline
+This quiz will last 10 minutes.  If you cannot finish the questions, that is fine.  We can review the solutions in the tutorial this evening.
+\newline
+
+\textbf{Question 1 : Swapping}
+Pretend that you have the little bit of python code already in your program.
+\begin{lstlisting}
+x=4
+y=9
+print ``The value of x is : '',x
+print ``The value of y is : '',y
+\end{lstlisting}
+On a piece of paper, extend this code by writing a few lines of code that will swap the values in \small{\ttfamily{x}} and \small{\ttfamily{y}}.  Remember, you cannot hard code anything and write
+\begin{lstlisting}
+x=4
+y=9
+print ``The value of x is : '',x
+print ``The value of y is : '',y
+x=9
+y=4
+\end{lstlisting}
+In addition to writing this code, on the left side of the paper, draw and describe in words, a diagram that schematically describes what is happenning internally in the computer at each step of your code.  Make sure to be very clear about which lines of code are described by which diagrams.  It is probably best to label the lines of code and make a separate drawing for each, showing which memory exists (is ``allocated'') and what is happenning.
+\newline
+\newline
+
+\begin{center}
+\textbf{NOTE} : There is a second page!!!!!
+\end{center}
+
+\newpage
+\textbf{Directions for Question 2 and 3} 
+\newline
+For many common tasks, there are built in functions already existing in python, or which can be imported from the \small{\ttfamily{math}} or \small{\ttfamily{numpy}} modules.  In particular, the ones you may have used before are \small{\ttfamily{min(LIST)}}, \small{\ttfamily{max(LIST)}}, \small{\ttfamily{sum(LIST)}}, \small{\ttfamily{len(LIST)}}.  However, these are not necessary for ``good'' programmers.  Nearly all programs can be written using the following small set of operations 
+\begin{itemize}[noitemsep]
+\item $+$ (add)
+\item $*$ (multiply
+\item $/$ (divide)
+\item $=$ (assignment)
+\item $==$ (equals comparison)
+\item $<$ (less than comparison)
+\item $>$ (greater than comparison)
+\end{itemize}
+In addition to these operators, it is taken for granted in programming that you can use the following features as well
+\begin{itemize}[noitemsep]
+\item variables and lists - for storing the initial dataset
+\item for loops
+\item if statements
+\item print statements - for viewing your code
+\end{itemize}
+In this quiz, these are the only things that may appear.   If you determine that you absolutely need some other function or operator, then include a comment clearly describing why this is the case.
+\newline
+Finally, you are not allowed to ``hard code'' in your program, meaning that there cannot be code that you must manually change each time you run it.  An example of this is the length of a list.  If I have a list \textit{[1,4,2,5,3,6]}, and you want to use the number of items in the list in your code, then the number ``6'' may not appear in your code.  
+\newline
+\newline
+\textbf{Question 2}
+\newline
+If I give you an integer \textit{Q}, write a single program that finds the average of all of the integers between \textit{0} and that integer \textit{Q}, including \textit{Q} itself.  Be sure that your code works for both positive and negative values of \textit{Q}.
+\newline
+\newline
+\textbf{Question 3}
+\newline
+Given this set of data (you can copy and paste it into an array if you like)
+\newline
+\newline
+[71, 51, 32, 62, 84, 109, 43, 92, 72, 41, 102, 80, 72, 69, 46, 94, 52, 95, 90, 72, 63, 70, 34, 80, 78, 34, 31, 37, 26, 41, 42, 107, 33, 108, 108, 75, 66, 23, 90, 53, 24, 70, 26, 41, 93, 24, 71, 39, 48, 66, 97, 107, 77, 71, 67, 39, 38, 107, 96, 92, 84, 46, 60, 95, 87, 90, 92, 63, 78, 78, 84, 107, 70, 108, 32, 36, 93, 108, 49, 72, 56, 43, 30, 56, 51, 97, 45, 92, 40, 43, 49, 83, 98, 28, 99, 97, 102, 89, 58, 87]
+\newline
+\newline
+write a program in python which computes the (i) \textit{maximum value} and the (ii) \textit{minimum value}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
