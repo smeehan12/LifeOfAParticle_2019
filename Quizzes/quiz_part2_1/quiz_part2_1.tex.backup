@@ -45,7 +45,7 @@
 
 \begin{document}
 \maketitle
-\vspace{-3ex}
+
 \textbf{Guidelines}:
 \newline
 This quiz will last 15 minutes. Write your answers on paper explaining how you get to the results. 
@@ -64,10 +64,10 @@ Let's imagine we can fix a positive charge A of one Coulomb in the ground. Let's
 
 \textbf{Question A:} What is the mass to be suspended on the other side of the crane to balance this system out? Compare this to a day-to-day life object.\\
 
-\textbf{Question B:} A typical lightning strike is about 40 coulombs of charge, consisting of separate "strokes" (that's why lightning usually looks flickery). Each stroke lasts about 30 microseconds. What is the current?\\
+\textbf{Question B:} A typical lightning strike is about 40 coulombs of charge, typically consisting of four separate "strokes" (that's why lightning usually looks flickery). Each stroke lasts about 30 microseconds. What is the current?\\
 
 \textit{Reminders on next page (there is also a second question!)}\\
-\newpage
+
 Coulomb's law is given by:
 \begin{equation}
  \mathbf{F_{12}} = k_e \frac{q_1 \, q_2}{| \, \mathbf{r_{21}}|^2} \: \mathbf{\hat{r}_{21}} 
@@ -80,25 +80,24 @@ with:
     \end{description}
 
 \section{The electron volt}
-An electron volt (eV) is the energy an electron gains when it is accelerated through a potential difference of one volt. 
-This unit of energy is commonly used in subatomic physics. One electron volt corresponds to 1.60218  $ \cdot 10^{-19}$ Joules. \\
+An electron volt (eV) is the energy an electron gains when it is accelerated through a potential difference of one volt. An electron volt is defined as a unit of energy.\\
 
-A Kingsbite Milk Chocolate Bar has 274 Calories (one dietary Calorie is 1000 calories, or 4184 Joules).\\
+A Lindt 70\% cocoa chocolate bar has 194 Calories (one dietary Calorie is 1000 calories, or 4184 Joules).\\
 
-The LHC operates at 14 TeV (tera electron volts, or 10$^{12}$ eV).\\
+The LHC operates at 14 TeV (tera eV, 10$^{12}$ eV).\\
 
 
-\textbf{Question A:} How does the energy of the proton-proton collisions at LHC compare with respect to the energy stored in a Kingsbite Milk Chocolate Bar?\\ 
+\textbf{Question A:} How does the energy of the proton-proton collisions at LHC compare with respect to the energy stored in a cocoa chocolate bar?\\ 
 
 \textbf{Question B:} Make the same comparison with energy density.\\
 
 \vspace{4ex}
 \hrule
 \vspace{4ex}
-\textit{Guidelines on input data:} as volumes you can use these estimations:
+\textit{Data:} as volumes you can use these estimations as guideline:
     \begin{description}
         \item LHC: a proton has a volume of roughly 1 fm$^3$, or about 10$^{-39}$ cm$^3$
-        \item Kingsbite Milk Chocolate Bar is about 10 cm $\times$ 1/2 cm $\times$ 20 cm = 100 cm$^3$
+        \item Lindt 70\% cocoa chocolate bar is about 10 cm $\times$ 1/2 cm $\times$ 20 cm = 100 cm$^3$
     \end{description}
 
 \vspace{4ex}
