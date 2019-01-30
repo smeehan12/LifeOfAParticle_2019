@@ -5,13 +5,6 @@ import numpy as np
 
 mpl.rcParams['lines.linewidth'] = 1
 
-#==============================================================
-
-def getDeflectionWithAngle(angleInDegrees, distanceLayers=1):
-    
-    deflection = np.tan(np.deg2rad(angleInDegrees)) * distanceLayers
-    
-    return deflection
 
 #==============================================================
 
