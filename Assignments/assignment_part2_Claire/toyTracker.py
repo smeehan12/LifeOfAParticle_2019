@@ -16,7 +16,7 @@ def buildDetector(n_layers, minx, maxx):
 
     # Defining a figure with two axis arrays (axarr) 
     fig, axarr = plt.subplots(nrows=2, ncols=1, sharex=True,
-        gridspec_kw = {'height_ratios':[3, 1]}, figsize=(10, 8))
+        gridspec_kw = {'height_ratios':[3, 1]}, figsize=(12, 10))
 
     # Background color is white
     fig.set_facecolor('w')
