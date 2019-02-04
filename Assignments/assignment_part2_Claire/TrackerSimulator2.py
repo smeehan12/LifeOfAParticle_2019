@@ -18,7 +18,7 @@ def getDeflectionsAllTracks( nLayersTK, N_tracks, p1, p2, p3 ):
 
     finalDevs     = []
     finalDevsCS   = []
-    finalDevsHC   = []
+    finalDevsHS   = []
     
     # Loop over tracks:
     for t in range(N_tracks):
